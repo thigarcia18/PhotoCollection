@@ -13,7 +13,7 @@
         <!--Photos-->
         <scene sceneID="UdZ-ER-zKQ">
             <objects>
-                <collectionViewController id="BAY-4M-fSv" sceneMemberID="viewController">
+                <collectionViewController id="BAY-4M-fSv" customClass="PhotosCollectionViewController" customModule="PhotoCollection" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="rVw-Hp-PUi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,7 +85,7 @@
                     </collectionView>
                     <navigationItem key="navigationItem" title="Photos" id="gKz-XC-4B7"/>
                     <connections>
-                        <segue destination="gxQ-BD-OM5" kind="show" id="084-Lx-Ax7"/>
+                        <segue destination="gxQ-BD-OM5" kind="show" identifier="ShowDetail" id="084-Lx-Ax7"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GvY-L1-YJs" userLabel="First Responder" sceneMemberID="firstResponder"/>
